@@ -1,0 +1,56 @@
+body {
+    background: rgb(119, 227, 242);
+    background: linear-gradient(90deg, rgba(119, 227, 242, 1) 2%, rgba(9, 9, 121, 1) 35%, rgba(122, 190, 201, 1) 100%);
+    color: white;
+}
+
+main {
+    width: 730px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+}
+
+.parte-uno {
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.parte-dos {
+    background-color: rgb(255, 255, 255, 0.2);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 250px;
+    height: 400px;
+}
+
+.estadisticas {
+    border: 1px solid white;
+    height: 100px;
+    border-radius: 10px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(0, 102, 102);
+}
